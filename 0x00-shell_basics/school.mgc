@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '0 string SCHOOL' > school.magic && file -C -m school.mgc school.magic && file -m school.mgc *
+echo '0 string SCHOOL' > school.magic && file -C -m school.mgc school.magic && mv school.mgc ~/.magic/ && file -m ~/.magic/school.mgc *
