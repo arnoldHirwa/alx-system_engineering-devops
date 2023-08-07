@@ -1,3 +1,2 @@
 #!/bin/bash
-tail -n +2 input_log_file.tsv | cut -f 1 | sort | uniq -c | sort -rn | head -n 11 | awk '{print $2}'
-
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
