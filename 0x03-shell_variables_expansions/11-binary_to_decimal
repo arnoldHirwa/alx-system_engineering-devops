@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls="rm *"
+echo $(( 2#$BINARY ))

@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls="rm *"
+printf "%.2f\n" $NUM
