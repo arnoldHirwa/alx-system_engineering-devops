@@ -1,10 +1,9 @@
-# A file for creating school file
+# A file to create school file
 
 file { 'school':
-  ensure  => file,
   content => 'I love Puppet',
+  group   => 'www-data',
   mode    => '0744',
   owner   => 'www-data',
-  group   => 'www-data',
-  path => '/tmp/school',
+  path    => '/tmp/school',
 }
