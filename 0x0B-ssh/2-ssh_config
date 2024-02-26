@@ -1,0 +1,6 @@
+# Configuration file to allow logging in without password
+Host 54.90.49.163
+    HostName 54.90.49.163
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
