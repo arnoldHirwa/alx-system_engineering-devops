@@ -18,8 +18,8 @@ backend web_servers
   timeout client 30s
   timeout server 30s
   timeout connect 5s
-  server 268879-web-01 100.25.103.83:80
-  server 268879-web-02 54.174.209.240:80
+  server 493468-web-01 100.25.103.83:80
+  server 493468-web-02 54.174.209.240:80
 EOF
 
 # Enable Haproxy
